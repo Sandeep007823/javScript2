@@ -21,21 +21,21 @@ else{
 let i = 30;
 let j = 60;
 
-// 1.
+// 1. if both are divisible by 10 console true
  if(i %10 == 0 && j%10 == 0){
     console.log("True");
  }
  else{
     console.log("False");
  }
- // 2.
+ // 2.  if both are not divisible by 10 console false
  if(i %10 != 0 && j%10 != 0){
     console.log("True");
  }
  else{
     console.log("False");
  }
- // 3.
+ // 3. if one of them only is divisible by 10 console true.
  if(i %10 == 0 || j%10 == 0){
     console.log("True");
  }
